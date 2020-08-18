@@ -25,9 +25,9 @@ with_process <- function(process, code) {
 
 process <- asciicast_start_process(timeout = 10)
 with_process(process, {
-  write_typing("setup_pkg", typing_speed = .00001, process = process)
-  write_typing("create_package", process = process)
-  write_typing("setup_pkg2", typing_speed = .00001, process = process)
+  #write_typing("setup_pkg", typing_speed = .00001, process = process)
+  #write_typing("create_package", process = process)
+  #write_typing("setup_pkg2", typing_speed = .00001, process = process)
   write_typing("write_code", process = process)
   write_typing("use_r", process = process)
   write_typing("write_functions", process = process)

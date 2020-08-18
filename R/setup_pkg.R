@@ -5,7 +5,7 @@ library(tidyverse)
 
 options(tibble.width = 60, tibble.print_max = 10)
 
-pkg_dir <- paste0(tempfile(), "/zenartrpkgs")
+pkg_dir <- paste0(tempfile(), "/manuscriptrpackage")
 if (fs::file_exists(pkg_dir)) fs::dir_delete(pkg_dir)
 fs::dir_create(pkg_dir)
 
