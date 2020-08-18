@@ -131,7 +131,7 @@ Maya Gans
 
 `r fontawesome::fa("twitter", fill = "#282D35")` @mayacelium
 
-Slides: [bit.ly/zenrpkgs](http://bit.ly/zenrpkgs)
+Slides: [bit.ly/manuscriptrpackage](http://bit.ly/manuscriptrpackage)
 
 ---
 
